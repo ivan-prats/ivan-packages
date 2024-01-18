@@ -1,20 +1,27 @@
 {
   "name": "ivan-packages",
   "version": "1.0.0",
+  "private": true,
   "description": "Useful packages to re-use in applications ",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "type": "module",
   "files": [
     "dist"
   ],
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "build": "tsup",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --loader ts-node/esm --enable-source-maps bin/test.ts"
   },
   "author": "Ivan Prats",
   "license": "ISC",
   "devDependencies": {
+    "@japa/assert": "^2.0.0-2",
+    "@japa/runner": "^3.0.0-9",
     "ts-node": "^10.9.2",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
