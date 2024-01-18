@@ -1,0 +1,11 @@
+{
+  "name": "ivan-packages",
+  "version": "1.0.0",
+  "description": "Useful packages to re-use in applications ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Prats",
+  "license": "ISC"
+}
