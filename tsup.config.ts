@@ -1,7 +1,10 @@
 import { defineConfig } from "tsup";
 
 export default defineConfig({
-  entry: ["src/index.ts"],
+  entry: {
+    result: "src/result/index.ts",
+    "custom-error": "src/custom-error/index.ts",
+  },
   format: ["cjs", "esm"],
   dts: true,
   splitting: false,

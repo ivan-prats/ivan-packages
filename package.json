@@ -1,11 +1,23 @@
 {
   "name": "ivan-packages",
   "version": "1.0.1",
-  "description": "Useful packages to re-use in applications ",
+  "description": "Useful packages to re-use in applications",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "type": "module",
+  "exports": {
+    "result": {
+      "import": "./dist/result.js",
+      "require": "./dist/result.cjs",
+      "types": "./dist/result.d.ts"
+    },
+    "custom-error": {
+      "import": "./dist/custom-error.js",
+      "require": "./dist/custom-error.cjs",
+      "types": "./dist/custom-error.d.ts"
+    }
+  },
   "files": [
     "dist"
   ],
