@@ -5,6 +5,7 @@ export default defineConfig({
     result: "src/result/index.ts",
     "custom-error": "src/custom-error/index.ts",
     domain: "src/domain/index.ts",
+    miscellaneous: "src/miscellaneous/index.ts",
   },
   format: ["cjs", "esm"],
   dts: true,

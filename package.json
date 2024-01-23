@@ -21,6 +21,11 @@
       "import": "./dist/domain.js",
       "require": "./dist/domain.cjs",
       "types": "./dist/domain.d.ts"
+    },
+    "miscellaneous": {
+      "import": "./dist/miscellaneous.js",
+      "require": "./dist/miscellaneous.cjs",
+      "types": "./dist/miscellaneous.d.ts"
     }
   },
   "files": [
@@ -39,9 +44,12 @@
   "devDependencies": {
     "@japa/assert": "^2.0.0-2",
     "@japa/runner": "^3.0.0-9",
+    "husky": "^8.0.0",
     "ts-node": "^10.9.2",
     "tsup": "^8.0.1",
-    "typescript": "^5.3.3",
-    "husky": "^8.0.0"
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "ulid": "^2.3.0"
   }
 }
