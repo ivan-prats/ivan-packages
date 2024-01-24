@@ -26,6 +26,11 @@
       "import": "./dist/miscellaneous.js",
       "require": "./dist/miscellaneous.cjs",
       "types": "./dist/miscellaneous.d.ts"
+    },
+    "command-bus": {
+      "import": "./dist/command-bus.js",
+      "require": "./dist/command-bus.cjs",
+      "types": "./dist/command-bus.d.ts"
     }
   },
   "files": [

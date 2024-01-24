@@ -6,6 +6,7 @@ export default defineConfig({
     "custom-error": "src/custom-error/index.ts",
     domain: "src/domain/index.ts",
     miscellaneous: "src/miscellaneous/index.ts",
+    "command-bus": "src/command-bus/index.ts",
   },
   format: ["cjs", "esm"],
   dts: true,
