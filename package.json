@@ -1,6 +1,6 @@
 {
-  "name": "ivan-packages",
-  "version": "1.1.1",
+  "name": "@ivan-prats/ivan-packages",
+  "version": "1.1.2",
   "description": "Useful packages to re-use in applications",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
